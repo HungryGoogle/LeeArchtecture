@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="deepin.leestatepattern.callstate.TestAllActivity">
+
+    <Button
+        android:id="@+id/id_call_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="呼出"/>
+
+    <Button
+        android:id="@+id/id_invite_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消呼出"/>
+
+    <Button
+        android:id="@+id/id_reject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拒接"/>
+
+    <Button
+        android:id="@+id/id_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接听"/>
+
+    <Button
+        android:id="@+id/id_hangup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="挂断"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/id_test_"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="呼出"/>-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/id_test2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="呼出"/>-->
+</LinearLayout>

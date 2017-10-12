@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--全屏视频-->
+    <FrameLayout
+        android:id="@+id/video_fullscreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/id_peer_hangup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="模拟对方挂断"/>
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/id_buttonSwitchCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="改变摄像头"/>
+
+
+    <!--底部按钮区域-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_mic"
+                android:layout_width="@dimen/call_btn_size"
+                android:layout_height="@dimen/call_btn_size"
+                android:background="@drawable/btn_mute" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/write"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_hangup"
+                android:layout_width="@dimen/call_btn_size"
+                android:layout_height="@dimen/call_btn_size"
+                android:background="@drawable/btn_endcall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/write"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_camera"
+                android:layout_width="@dimen/call_btn_size"
+                android:layout_height="@dimen/call_btn_size"
+                android:background="@drawable/btn_video" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/write"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--点对点小视频-->
+    <LinearLayout
+        android:id="@+id/id_small_video_layout"
+        android:layout_width="80dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:baselineAligned="false">
+
+    </LinearLayout>
+</RelativeLayout>

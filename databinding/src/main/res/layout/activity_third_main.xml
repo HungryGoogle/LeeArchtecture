@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="deepin.databinding.third.StyleBean"/>
+
+        <variable
+            name="style"
+            type="StyleBean"/>
+    </data>
+
+    <LinearLayout
+        android:background="@{style.night}"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <!--// 显示-->
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您设置的字体"
+                android:textColor="@{style.night}"
+                android:textSize="@{style.textSizeLivel}"/>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout1"
+                android:layout_marginTop="10dp"
+                android:src="@{style.night ? @drawable/night:@drawable/day}"/>
+        </LinearLayout>
+
+
+        <!--设置字体大小-->
+        <Button
+            android:id="@+id/button_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:onClick="@{(view)->style.changeTextSize(view)}"
+            android:text="设置字体大小"/>
+
+        <Button
+            android:id="@+id/button_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="@{(view)->style.changeNight(view)}"
+            android:text="黑天白天模式切换"/>
+
+        <Button
+            android:id="@+id/button_next_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="其他页"/>
+    </LinearLayout>
+</layout>

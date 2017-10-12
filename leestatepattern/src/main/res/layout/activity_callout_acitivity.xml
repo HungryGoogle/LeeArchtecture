@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/call_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/p2p_call_content_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/id_invite_cancel"
+            android:layout_width="@dimen/call_btn_size"
+            android:layout_height="@dimen/call_btn_size"
+            android:background="@mipmap/hangup"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/p2p_call_cancel"
+            android:textColor="@color/write"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/id_peer_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="模拟发出对方接听" />
+</RelativeLayout>

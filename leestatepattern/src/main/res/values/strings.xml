@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LeeStatePattern</string>
+    <string name="p2p_call_wait_for_accept">正在等待对方接受邀请</string>
+    <string name="p2p_call_cancel">取消</string>
+    <string name="p2p_call_inviteaccept">邀请你视频聊天</string>
+    <string name="agora_appid">302ccf5b5887479fad37df8893f5d440</string>
+</resources>

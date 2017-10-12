@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="90dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_callout_acitivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/head_photo_1" />
+
+    <TextView
+        android:id="@+id/id_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="张三/80274685"
+        android:textColor="@color/write"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/id_text_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p2p_call_wait_for_accept"
+        android:textColor="@color/write"
+        android:textSize="15sp" />
+</LinearLayout>

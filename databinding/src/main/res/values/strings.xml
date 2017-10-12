@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DataBinding</string>
+    <string name="contributor_count_format">贡献次数: %1d</string>
+</resources>

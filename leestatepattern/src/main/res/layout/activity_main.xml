@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="deepin.leestatepattern.MainActivity">
+
+    <Button
+        android:id="@+id/id_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="状态改变"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/id_call_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简单simple demo呼叫（按钮+日志）" />
+
+    <Button
+        android:id="@+id/id_call_activity_demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="activity呼叫" />
+
+
+    <Button
+        android:id="@+id/id_agora_video_call_demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="实际网络电话" />
+</LinearLayout>

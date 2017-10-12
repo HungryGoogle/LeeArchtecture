@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="user"
+            type="deepin.databinding.secondexample.User"
+            />
+        <variable
+            name="handler"
+            type="deepin.databinding.secondexample.MyHandlers"/>
+        <variable
+            name="presenter"
+            type="deepin.databinding.secondexample.Presenter"/>
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.firstName}"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{user.lastName}"/>
+        <Button
+            android:id="@+id/id_change_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{handler::click}"
+            android:onLongClick="@{handler::longClick}"
+            android:text="点击或长按 handler"/>
+
+        <Button
+        android:id="@+id/id_change_value_presenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:onClick="@{()->presenter.click()}"
+            android:onLongClick="@{()->presenter.longClick()}"
+        android:text="点击或长按 presenter, 见logcat"/>
+    </LinearLayout>
+
+</layout>
