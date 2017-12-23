@@ -3,12 +3,20 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LeeAndroidBasic.iml" filepath="$PROJECT_DIR$/LeeAndroidBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeeArchtecture20171223.iml" filepath="$PROJECT_DIR$/LeeArchtecture20171223.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/aidlserver/aidlserver.iml" filepath="$PROJECT_DIR$/aidlserver/aidlserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlserver/aidlserver.iml" filepath="$PROJECT_DIR$/aidlserver/aidlserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidpriorityjobqueue/androidpriorityjobqueue.iml" filepath="$PROJECT_DIR$/androidpriorityjobqueue/androidpriorityjobqueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidpriorityjobqueue/androidpriorityjobqueue.iml" filepath="$PROJECT_DIR$/androidpriorityjobqueue/androidpriorityjobqueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/databinding/databinding.iml" filepath="$PROJECT_DIR$/databinding/databinding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/databinding/databinding.iml" filepath="$PROJECT_DIR$/databinding/databinding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leemvp/leemvp.iml" filepath="$PROJECT_DIR$/leemvp/leemvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/leemvp/leemvp.iml" filepath="$PROJECT_DIR$/leemvp/leemvp.iml" />
       <module fileurl="file://$PROJECT_DIR$/leestatepattern/leestatepattern.iml" filepath="$PROJECT_DIR$/leestatepattern/leestatepattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leestatepattern/leestatepattern.iml" filepath="$PROJECT_DIR$/leestatepattern/leestatepattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission/permission.iml" filepath="$PROJECT_DIR$/permission/permission.iml" />
       <module fileurl="file://$PROJECT_DIR$/permission/permission.iml" filepath="$PROJECT_DIR$/permission/permission.iml" />
     </modules>
   </component>
