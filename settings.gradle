@@ -1,2 +1,2 @@
-include ':aidlserver', ':aidlclient', ':databinding', ':leemvp', ':leestatepattern', ':permission'
+include ':aidlserver', ':aidlclient', ':databinding', ':leemvp', ':leestatepattern', ':permission', ':eventobserver'
 include ':androidpriorityjobqueue'

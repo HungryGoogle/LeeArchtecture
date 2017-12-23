@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/aidlserver" />
             <option value="$PROJECT_DIR$/androidpriorityjobqueue" />
             <option value="$PROJECT_DIR$/databinding" />
+            <option value="$PROJECT_DIR$/eventobserver" />
             <option value="$PROJECT_DIR$/leemvp" />
             <option value="$PROJECT_DIR$/leestatepattern" />
             <option value="$PROJECT_DIR$/permission" />
